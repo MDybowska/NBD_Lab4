@@ -1,0 +1,13 @@
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wOT4NIpTIlMfK8Hd/4TW+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:38:05 GMT
+ETag: "3yP89uHqrRqs7gUPNuNrY7"
+Date: Sun, 09 Jun 2019 17:38:05 GMT
+Content-Type: application/json
+Content-Length: 145
+
+{ "typ": "serial", "nazwa": "The Time", "krajProdukcji": ["Anglia", "Irlandia", "Włochy"], "rokPremiery": 2008, "scenarzysta": "Abacki Babacki"}

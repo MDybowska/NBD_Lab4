@@ -1,0 +1,14 @@
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 201 Created
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wefUAIpTImMfK8PpQ4TW+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s18392/keys/G3JNexdm5JoViZDh8iUTChwOKvT
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:50:35 GMT
+ETag: "FO5H0CoySMAIkCpmBBazg"
+Date: Sun, 09 Jun 2019 17:50:35 GMT
+Content-Type: application/json
+Content-Length: 17
+
+{"typ": "serial"}

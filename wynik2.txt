@@ -1,0 +1,14 @@
+curl: (6) Could not resolve host: 127.0.0.alBox
+curl: (6) Could not resolve host: curl
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wOfQQIpTImMfKULC78BpfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:18:40 GMT
+ETag: "1SQxH4OZHSgkGYbdlX1Mfv"
+Date: Sun, 09 Jun 2019 17:31:05 GMT
+Content-Type: application/json
+Content-Length: 95
+
+{ "typ": "film", "nazwa": "Bad", "krajProdukcji": ["Anglia", "Argentyna"], "rokPremiery": 2000}

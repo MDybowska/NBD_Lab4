@@ -1,0 +1,75 @@
+s18392 created
+
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wOT4NIpTImMfKkL+78BpfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:18:39 GMT
+ETag: "75deAw1xuIduZ9oAy55vOe"
+Date: Sun, 09 Jun 2019 17:18:39 GMT
+Content-Type: application/json
+Content-Length: 112
+
+{ "typ": "serial", "nazwa": "The Time", "krajProdukcji": ["Anglia", "Irlandia", "Włochy"], "rokPremiery": 2008}
+
+
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wOfQQIpTImMfKULC78BpfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:18:40 GMT
+ETag: "1SQxH4OZHSgkGYbdlX1Mfv"
+Date: Sun, 09 Jun 2019 17:18:40 GMT
+Content-Type: application/json
+Content-Length: 95
+
+{ "typ": "film", "nazwa": "Bad", "krajProdukcji": ["Anglia", "Argentyna"], "rokPremiery": 2000}
+
+
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr5wndMKEUpkzGNlKNhdeI0vCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:18:40 GMT
+ETag: "46tvedVKpZMfyEVg74RC0f"
+Date: Sun, 09 Jun 2019 17:18:40 GMT
+Content-Type: application/json
+Content-Length: 104
+
+{ "typ": "opera", "nazwa": "Little More", "krajProdukcji": ["Czechy", "Słowacja"], "rokPremiery": 1994}
+
+
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wmV4EEUpkzGNlKNxdeI0vCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:18:41 GMT
+ETag: "wtzbB3H4mXCGkGDWIFIwM"
+Date: Sun, 09 Jun 2019 17:18:41 GMT
+Content-Type: application/json
+Content-Length: 103
+
+{ "typ": "spektakl", "nazwa": "Random", "krajProdukcji": ["Anglia", "Portugalia"], "rokPremiery": 2005}
+
+
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wOT4NyGbOYEpkzGNlsN5TeI0vCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:22:03 GMT
+ETag: "7fMoGqqoTEiVsrfspNwg4x"
+Date: Sun, 09 Jun 2019 17:22:03 GMT
+Content-Type: application/json
+Content-Length: 118
+
+{ "typ": "widowisko", "nazwa": "Sparkle", "krajProdukcji": ["Niemcy", "Portugalia", "Hiszpania"], "rokPremiery": 2002}

@@ -1,0 +1,40 @@
+//ZADANIE 1
+sudo riak-admin bucket-type create s18392 '{"props":{}}'
+
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "serial", "nazwa": "The Time", "krajProdukcji": ["Anglia", "Irlandia", "Włochy"], "rokPremiery": 2008}' http://127.0.0.1:8098/buckets/s18392/keys/serialTheTime2008?returnbody=true
+
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "film", "nazwa": "Bad", "krajProdukcji": ["Anglia", "Argentyna"], "rokPremiery": 2000}' http://127.0.0.1:8098/buckets/s18392/keys/filmBad2000?returnbody=true
+
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "opera", "nazwa": "Little More", "krajProdukcji": ["Czechy", "Słowacja"], "rokPremiery": 1994}' http://127.0.0.1:8098/buckets/s18392/keys/operaLittleMore1994?returnbody=true
+
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "spektakl", "nazwa": "Random", "krajProdukcji": ["Anglia", "Portugalia"], "rokPremiery": 2005}' http://127.0.0.1:8098/buckets/s18392/keys/spektaklRandom2005?returnbody=true
+
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "widowisko", "nazwa": "Sparkle", "krajProdukcji": ["Niemcy", "Portugalia", "Hiszpania"], "rokPremiery": 2002}' http://127.0.0.1:8098/buckets/s18392/keys/widowiskoSparkle2002?returnbody=true
+
+
+//ZADANIE 2
+curl -i -XGET http://127.0.0.1:8098/buckets/s18392/keys/filmBad2000
+
+//ZADANIE 3
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "serial", "nazwa": "The Time", "krajProdukcji": ["Anglia", "Irlandia", "Włochy"], "rokPremiery": 2008, "scenarzysta": "Abacki Babacki"}' http://127.0.0.1:8098/buckets/s18392/keys/serialTheTime2008?returnbody=true
+
+//ZADANIE 4
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "spektakl", "nazwa": "Random", "krajProdukcji": ["Anglia", "Portugalia"]}' http://127.0.0.1:8098/buckets/s18392/keys/spektaklRandom2005?returnbody=true
+
+//ZADANIE 5
+curl -i –XPUT -H "Content-Type: application/json" -d '{ "typ": "widowisko", "nazwa": "Sparkle", "krajProdukcji": ["Niemcy", "Portugalia", "Hiszpania"], "rokPremiery": 2012}' http://127.0.0.1:8098/buckets/s18392/keys/widowiskoSparkle2002?returnbody=true
+
+//ZADANIE 6
+curl -v -XDELETE http://127.0.0.1:8098/buckets/s18392/keys/filmBad2000?returnbody=true
+
+//ZADANIE 7
+curl -i -XGET http://127.0.0.1:8098/buckets/s18392/keys/filmNotExisting2000
+
+//ZADANIE 8
+curl -i –XPUT -H "Content-Type: application/json" -d '{"typ": "serial"}' http://127.0.0.1:8098/buckets/s18392/keys/?returnbody=true
+
+//ZADANIE 9
+curl -i -XGET http://127.0.0.1:8098/buckets/s18392/keys/G3JNexdm5JoViZDh8iUTChwOKvT   
+
+//ZADANIE 10
+curl -v -XDELETE http://127.0.0.1:8098/buckets/s18392/keys/G3JNexdm5JoViZDh8iUTChwOKvT   

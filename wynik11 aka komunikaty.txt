@@ -1,0 +1,6 @@
+Utworzono sztukê: 
+{u'typ': u'Opera', u'nazwa': u'Carmen', u'rokPremiery': 1878}
+Zmodyfikowano sztukê: 
+{u'typ': u'Opera', u'nazwa': u'Carmen', u'rokPremiery': 2000}
+Usuniêto sztukê
+None

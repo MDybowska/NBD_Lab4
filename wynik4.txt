@@ -1,0 +1,13 @@
+curl: (6) Could not resolve host: xn--xput-z86a
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wmV4EEUpkymNlKDlQeI0vCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:40:04 GMT
+ETag: "2yAXuRlEpbi7Zbh3QGOT7Z"
+Date: Sun, 09 Jun 2019 17:40:04 GMT
+Content-Type: application/json
+Content-Length: 82
+
+{ "typ": "spektakl", "nazwa": "Random", "krajProdukcji": ["Anglia", "Portugalia"]}

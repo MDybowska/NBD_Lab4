@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fr4wefUAIpTImMfK8PpQ4TW+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18392>; rel="up"
+Last-Modified: Sun, 09 Jun 2019 17:50:35 GMT
+ETag: "FO5H0CoySMAIkCpmBBazg"
+Date: Sun, 09 Jun 2019 17:54:49 GMT
+Content-Type: application/json
+Content-Length: 17
+
+{"typ": "serial"}
